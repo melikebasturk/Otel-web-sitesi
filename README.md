@@ -1,2 +1,5 @@
-# Otel-web-sitesi
-HTML-CSS Kullanarak basit bir web sitesi 
+**BASİT BİR OTEL WEB SİTESİ**
+
+---
+
+

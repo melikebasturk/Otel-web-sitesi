@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color:#F9F8EB;
+    --text-color:#E3DFC8;
+    --bg-color:#415865;
+    --big-font:5rem;
+    --h2-font:2rem;
+    --p-font:1.5rem
+}
+
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+}
+
+.logo{
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 3rem;
+    padding: 10px 20px;
+    font-weight: 500; 
+}
+
+
+
+section{
+    padding: 70px 17%;
+}
+.ilkicerik{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+.ilkicerik-img img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+.ilkicerik-text h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+
+.ilkicerik-text h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 2rem;
+}
+
+.icerik{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.icerik-img img{
+    max-width: 100%;
+    width: 480px;
+    height: auto;
+}
+.icerik-text span{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: var(--h2-font);
+   
+}
+
+.icerik-text h2{
+    font-size: var(--p-font);
+}
+.icerik-text p{
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: var(--big-font);
+}
+
+.heading h2{
+    font-size: var(--h2-font);
+}
+.oda-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.kutu{
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #7A9EB1;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+.kutu-img{
+    width: 200px;
+    height: 200px;
+}
+.kutu-img img{
+    width: 100%;
+    height: 100%;
+}
+.kutu h2{
+    font-size: 1.5rem;
+    color: var(--bg-color);
+}
+.kutu h3{
+    font-size: 1.2rem;
+    color: var(--bg-color);
+    font-weight: 400;
+    margin: 4px 0 10px;
+}
+.kutu span{
+    font-size: var(--p-font);
+    color: var(--main-color);
+    font-weight: 600;
+}
+
